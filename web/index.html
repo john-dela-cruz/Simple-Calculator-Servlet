@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Basic Calculator</title>
+</head>
+<body>
+	<form action='calculator.action' method='post'>
+		<p>First Operand:
+			<input type="number" name='operand1' required="required"/>
+		</p>
+		<p>Operator: 
+			<select name='operator'>
+				<option value='+'>+</option>
+				<option value='-'>-</option>
+				<option value='*'>*</option>
+				<option value='/'>/</option>
+			</select>
+		</p>
+		<p>Second Operand:
+			<input type="number" name='operand2' required="required"/>
+		</p>
+		<p>
+			<input type="submit" value='SUBMIT'/>
+		</p>
+	</form>
+</body>
+</html>

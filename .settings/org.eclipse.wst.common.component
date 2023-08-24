@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MP1-SEG21-DELA-CRUZ_JOHN-Calculator">
+        <wb-resource deploy-path="/" source-path="/web" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="www.basiccalculator.com"/>
+        <property name="java-output-path" value="/MP1-SEG21-DELA-CRUZ_JOHN-Calculator/build/classes"/>
+    </wb-module>
+</project-modules>
